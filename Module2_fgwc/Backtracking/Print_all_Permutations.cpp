@@ -1,3 +1,5 @@
+// Time Complexity -> O(n * n!) , as Printing a string of length n takes:O(n) and there are total n ! permutations
+//  Space Complexity -> O(n) , recursive depth of the tree 
 #include <iostream>
 using namespace std;
 void printPermutation(string &str, int index)
